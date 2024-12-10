@@ -1,0 +1,58 @@
+CPU Usage:
+20
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            1967        1137         116           0         875         829
+Swap:           2047         708        1339
+Disk Usage:
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              197M  1.8M  196M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   24G   16G  7.0G  69% /
+tmpfs                              984M     0  984M   0% /dev/shm
+tmpfs                              5.0M  8.0K  5.0M   1% /run/lock
+/dev/sda2                          2.0G  182M  1.7G  10% /boot
+tmpfs                              197M  100K  197M   1% /run/user/1000
+tmpfs                              1.9G     0  1.9G   0% /var/snap/microk8s/common/var/lib/kubelet/pods/e3afa145-52f1-46ec-aae2-6b2ea84d2871/volumes/kubernetes.io~secret/kubernetes-dashboard-certs
+tmpfs                              1.9G   12K  1.9G   1% /var/snap/microk8s/common/var/lib/kubelet/pods/d11f633a-f501-421f-bcc3-63a1f5cd91a8/volumes/kubernetes.io~projected/kube-api-access-8r7vv
+tmpfs                              1.9G   12K  1.9G   1% /var/snap/microk8s/common/var/lib/kubelet/pods/ef3d26f6-bea6-4049-8f35-a6eea9c82303/volumes/kubernetes.io~projected/kube-api-access-wlfz9
+tmpfs                              1.9G   12K  1.9G   1% /var/snap/microk8s/common/var/lib/kubelet/pods/0aa8d3fb-bb6e-43d0-85eb-03fc26901dbc/volumes/kubernetes.io~projected/kube-api-access-wgm95
+tmpfs                              1.9G   12K  1.9G   1% /var/snap/microk8s/common/var/lib/kubelet/pods/e3afa145-52f1-46ec-aae2-6b2ea84d2871/volumes/kubernetes.io~projected/kube-api-access-52pkp
+tmpfs                              1.9G   12K  1.9G   1% /var/snap/microk8s/common/var/lib/kubelet/pods/c5d6661c-44d3-4b3a-94e1-b28ca8d38553/volumes/kubernetes.io~projected/kube-api-access-6bq94
+tmpfs                              1.9G   12K  1.9G   1% /var/snap/microk8s/common/var/lib/kubelet/pods/e128459f-4d23-4f9e-a9d1-9bd1baa78c7e/volumes/kubernetes.io~projected/kube-api-access-mv72s
+tmpfs                              170M   12K  170M   1% /var/snap/microk8s/common/var/lib/kubelet/pods/26ef8867-cc61-47b0-99f8-3b942903900a/volumes/kubernetes.io~projected/kube-api-access-hbvwr
+tmpfs                              1.9G   12K  1.9G   1% /var/snap/microk8s/common/var/lib/kubelet/pods/bb7b0c9d-eaa3-41d7-9b9f-17e3f27cfb86/volumes/kubernetes.io~projected/kube-api-access-x5tqz
+shm                                 64M     0   64M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/0f6562b417dc6750b8607aedf54cae45bf0321a623e68cbfb504069c5f6a66b6/shm
+overlay                             24G   16G  7.0G  69% /var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/0f6562b417dc6750b8607aedf54cae45bf0321a623e68cbfb504069c5f6a66b6/rootfs
+overlay                             24G   16G  7.0G  69% /var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/15f3a86665ec36b64863a2356b463ecf2f1f40b97c017df7273730419a427e3a/rootfs
+shm                                 64M     0   64M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/bc67ba39064d80635daf6cab60b53b001717539e337034ec707f4dbc0a04852f/shm
+shm                                 64M     0   64M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/a6c7583006c63391f248e3f5a4800f72afe5e3e2c452fe9cf5d6dbbe5d06938f/shm
+shm                                 64M     0   64M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/9acca12aff32bb2aafe74950ae590d3f85f8d500b707a91e6f0e8472f73a236d/shm
+shm                                 64M     0   64M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/e504104feb32e82923e03c92f251b33a8084dda31de402e35ad75c8182a0381b/shm
+overlay                             24G   16G  7.0G  69% /var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/bc67ba39064d80635daf6cab60b53b001717539e337034ec707f4dbc0a04852f/rootfs
+shm                                 64M     0   64M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/4cd48068209fa05c0fab06155a19dfad45917dea24013aec7235b38dd9a82d7a/shm
+overlay                             24G   16G  7.0G  69% /var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/9acca12aff32bb2aafe74950ae590d3f85f8d500b707a91e6f0e8472f73a236d/rootfs
+overlay                             24G   16G  7.0G  69% /var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/29a8764a1ab4c4f37a976a6687e10fd8feae756adc763908be9951265b191f74/rootfs
+overlay                             24G   16G  7.0G  69% /var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/a6c7583006c63391f248e3f5a4800f72afe5e3e2c452fe9cf5d6dbbe5d06938f/rootfs
+overlay                             24G   16G  7.0G  69% /var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/3e5efd54c03ceca69034739a93b575661f824fd15d8a34282b87e2045ce83f16/rootfs
+overlay                             24G   16G  7.0G  69% /var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/e504104feb32e82923e03c92f251b33a8084dda31de402e35ad75c8182a0381b/rootfs
+overlay                             24G   16G  7.0G  69% /var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/4cd48068209fa05c0fab06155a19dfad45917dea24013aec7235b38dd9a82d7a/rootfs
+overlay                             24G   16G  7.0G  69% /var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/76522c98d2e1542fca82a0da1716e3996623e039f31a575117ab80632eea86a8/rootfs
+overlay                             24G   16G  7.0G  69% /var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/1159e3bcad38ceeb7ab7d9c085014833295843c257a8deeec27623004f2793c9/rootfs
+overlay                             24G   16G  7.0G  69% /var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/2f5e61f088556624bfb71020fe23c89bfe1e3484cfd0e5d24412edc139359a87/rootfs
+shm                                 64M     0   64M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/65942ba0fe85fc056760b984c3ce809a78935aab59f20cef97a03d1b4e220e02/shm
+overlay                             24G   16G  7.0G  69% /var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/65942ba0fe85fc056760b984c3ce809a78935aab59f20cef97a03d1b4e220e02/rootfs
+overlay                             24G   16G  7.0G  69% /var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/35170cc6cc39c318ba1bde66d06e4c176893080ac7975489798759d209fd9ca0/rootfs
+shm                                 64M     0   64M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/f90c472f2bf8dad758368ef6d1e33c97bead4b1f79edb88c5c1d1e1f2c710299/shm
+overlay                             24G   16G  7.0G  69% /var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/f90c472f2bf8dad758368ef6d1e33c97bead4b1f79edb88c5c1d1e1f2c710299/rootfs
+overlay                             24G   16G  7.0G  69% /var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/8f09dd86f5cbc88c6983994ee79a1ed36a69adbf4605515e39fa29b8345a9406/rootfs
+Running Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           2  0.0  0.0      0     0 ?        S    22:51   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    22:51   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   22:51   0:00 [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   22:51   0:00 [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   22:51   0:00 [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   22:51   0:00 [kworker/R-netns]
+root          10  0.0  0.0      0     0 ?        I<   22:51   0:00 [kworker/0:0H-events_highpri]
+root          11  0.0  0.0      0     0 ?        I    22:51   0:00 [kworker/u4:0-ext4-rsv-conversion]
+root          12  0.0  0.0      0     0 ?        I<   22:51   0:00 [kworker/R-mm_pe]
